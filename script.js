@@ -5,8 +5,8 @@ function berechneMaschen() {
     const rundenzahl = parseInt(document.getElementById("rundenzahl").value, 10);
     
     // Validierung des Fußumfangs
-    if (isNaN(fussumfang) || fussumfang < 100 || fussumfang > 350) {
-        alert("Bitte geben Sie einen gültigen Fußumfang zwischen 100 und 350 mm ein.");
+    if (isNaN(fussumfang) || fussumfang < 100 || fussumfang > 400) {
+        alert("Bitte geben Sie einen gültigen Fußumfang zwischen 100 und 400 mm ein.");
         return; // Beende die Funktion, wenn die Eingabe ungültig ist
     }
     
